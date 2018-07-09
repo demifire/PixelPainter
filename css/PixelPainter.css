@@ -55,3 +55,14 @@
     position: absolute;
     margin-top: 85px;
 }
+
+#changeGridInput {
+    position: absolute;
+    margin-top: 110px;
+    width: 25px
+}
+
+#changeGridButton {
+    position: absolute;
+    margin-top: 135px;
+}

@@ -6,17 +6,18 @@ var colorDiv = document.createElement("table");
 colorDiv.className = "colorDiv";
 pixelDiv.appendChild(colorDiv);
 
-var grid = clickableGrid(20,20);
+var rowsAndColumns = 20;
+var grid = clickableGrid(rowsAndColumns);
 
 pixelDiv.appendChild(grid);
 var color = null;
 
-function clickableGrid( rows, cols){
+function clickableGrid(number){
     var grid = document.createElement('table');
     grid.className = 'grid';
-    for (var r=0;r<rows;++r){
+    for (var r=0;r<number;++r){
         var tr = grid.appendChild(document.createElement('tr'));
-        for (var c=0;c<cols;++c){
+        for (var c=0;c<number;++c){
             var cell = tr.appendChild(document.createElement('td'));
             cell.innerHTML = '';
             cell.className = 'cells'
@@ -74,12 +75,12 @@ clear.innerHTML = "Clear";
 clear.id = 'clearButton';
 colorDiv.appendChild(clear);
 
-clear.addEventListener('click', makeGridWhite)
+clear.addEventListener('click', makeGridEmpty)
 
-function makeGridWhite(){
+function makeGridEmpty(){
     var allSquares = document.querySelectorAll('.cells');
     for(var i=0;i<allSquares.length;i++){
-        allSquares[i].style.backgroundColor = "white";
+        allSquares[i].style.backgroundColor = "";
     }
 }
 
@@ -135,4 +136,27 @@ function loadGrid(){
         }
     }
 }
-//what
+
+var changeGrid = document.createElement('input');
+changeGrid.placeholder = 10;
+changeGrid.id = 'changeGridInput';
+colorDiv.appendChild(changeGrid);
+
+var changeGridButton = document.createElement('button');
+changeGridButton.innerHTML = "Change Grid Layout";
+changeGridButton.id = 'changeGridButton';
+colorDiv.appendChild(changeGridButton);
+
+changeGridButton.addEventListener('click', changeGridDisplay)
+
+function changeGridDisplay(){
+    var gridInputValue = document.getElementById('changeGridInput').value;
+    if(gridInputValue > 0 && gridInputValue <101){
+        grid.style.display = 'none';
+        rowsAndColumns = gridInputValue;
+        grid = clickableGrid(rowsAndColumns);
+        pixelDiv.appendChild(grid);
+    }else{
+        alert('Invalid entry')
+    }
+}
