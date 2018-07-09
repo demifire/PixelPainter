@@ -6,7 +6,7 @@ var colorDiv = document.createElement("table");
 colorDiv.className = "colorDiv";
 pixelDiv.appendChild(colorDiv);
 
-var grid = clickableGrid(15,15);
+var grid = clickableGrid(20,20);
 
 pixelDiv.appendChild(grid);
 var color = null;
@@ -72,7 +72,7 @@ for (var i=0; i<colorArr.length; i++) {
 var clear = document.createElement('button');
 clear.innerHTML = "Clear";
 clear.id = 'clearButton';
-document.body.appendChild(clear);
+colorDiv.appendChild(clear);
 
 clear.addEventListener('click', makeGridWhite)
 
@@ -86,7 +86,7 @@ function makeGridWhite(){
 var erase = document.createElement('button');
 erase.innerHTML = "Erase";
 erase.id = 'eraseButton';
-document.body.appendChild(erase);
+colorDiv.appendChild(erase);
 
 erase.addEventListener('click', makeColorWhite)
 
@@ -96,6 +96,42 @@ function makeColorWhite(){
             colorSquare[i].style.border = "";
         }
     }
-    color = 'white';
+    color = '';
     colorSquare[71].style.border = "1px solid yellow"
+}
+
+var save = document.createElement('button');
+save.innerHTML = "Save";
+save.id = 'saveButton';
+colorDiv.appendChild(save);
+
+save.addEventListener('click', saveGrid)
+
+var saveObj;
+function saveGrid(){
+    saveObj = {};
+    var allSquares = document.querySelectorAll('.cells');
+    for(var i=0;i<allSquares.length;i++){
+        if(allSquares[i].style.backgroundColor !== ''){
+            saveObj[i]=allSquares[i].style.backgroundColor;
+        }
+    }
+    console.log(saveObj);
+    return saveObj
+}
+
+var load = document.createElement('button');
+load.innerHTML = "Load";
+load.id = 'loadButton';
+colorDiv.appendChild(load);
+
+load.addEventListener('click', loadGrid)
+
+function loadGrid(){
+    var allSquares = document.querySelectorAll('.cells');
+    for(var i=0;i<allSquares.length;i++){
+        if(saveObj[i] !== ''){
+            allSquares[i].style.backgroundColor=saveObj[i];
+        }
+    }
 }
