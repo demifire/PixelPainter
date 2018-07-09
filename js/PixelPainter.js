@@ -152,10 +152,14 @@ changeGridButton.addEventListener('click', changeGridDisplay)
 function changeGridDisplay(){
     var gridInputValue = document.getElementById('changeGridInput').value;
     if(gridInputValue > 0 && gridInputValue <101){
-        grid.style.display = 'none';
-        rowsAndColumns = gridInputValue;
-        grid = clickableGrid(rowsAndColumns);
-        pixelDiv.appendChild(grid);
+        if (confirm('Are you sure you want to change grid? Your work will not be saved.')) {
+            grid.style.display = 'none';
+            rowsAndColumns = gridInputValue;
+            grid = clickableGrid(rowsAndColumns);
+            pixelDiv.appendChild(grid);
+        } else {
+            // Do nothing!
+        }
     }else{
         alert('Invalid entry')
     }
