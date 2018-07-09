@@ -1,11 +1,17 @@
-var lastClicked;
-var grid = clickableGrid(30,30);
+var pixelDiv = document.createElement('div');
+pixelDiv.id = 'pixelDiv';
+document.body.appendChild(pixelDiv);
 
-document.body.appendChild(grid);
+var colorDiv = document.createElement("table");
+colorDiv.className = "colorDiv";
+pixelDiv.appendChild(colorDiv);
+
+var grid = clickableGrid(15,15);
+
+pixelDiv.appendChild(grid);
 var color = null;
 
 function clickableGrid( rows, cols){
-    var i=0;
     var grid = document.createElement('table');
     grid.className = 'grid';
     for (var r=0;r<rows;++r){
@@ -13,6 +19,7 @@ function clickableGrid( rows, cols){
         for (var c=0;c<cols;++c){
             var cell = tr.appendChild(document.createElement('td'));
             cell.innerHTML = '';
+            cell.className = 'cells'
             cell.addEventListener('click', function(){
                 if(color === null){
                 this.style.backgroundColor = 'indianred';
@@ -25,11 +32,6 @@ function clickableGrid( rows, cols){
     }
     return grid;
 }
-
-
-var colorDiv = document.createElement("table");
-colorDiv.className = "colorDiv";
-document.body.appendChild(colorDiv);
 
 for (var i=0; i<9; i++) {
     var makeColorRow = document.createElement("tr");
@@ -67,3 +69,16 @@ for (var i=0; i<colorArr.length; i++) {
     colorSquare[i].style.backgroundColor = colorArr[i];
 }
 
+var clear = document.createElement('button');
+clear.innerHTML = "Clear";
+clear.className = 'clear';
+document.body.appendChild(clear);
+
+clear.addEventListener('click', makeGridWhite)
+
+function makeGridWhite(){
+    var allSquares = document.querySelectorAll('.cells');
+    for(var i=0;i<allSquares.length;i++){
+        allSquares[i].style.backgroundColor = "white";
+    }
+}
