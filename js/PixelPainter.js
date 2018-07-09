@@ -71,7 +71,7 @@ for (var i=0; i<colorArr.length; i++) {
 
 var clear = document.createElement('button');
 clear.innerHTML = "Clear";
-clear.className = 'clear';
+clear.id = 'clearButton';
 document.body.appendChild(clear);
 
 clear.addEventListener('click', makeGridWhite)
@@ -81,4 +81,15 @@ function makeGridWhite(){
     for(var i=0;i<allSquares.length;i++){
         allSquares[i].style.backgroundColor = "white";
     }
+}
+
+var erase = document.createElement('button');
+erase.innerHTML = "Erase";
+erase.id = 'eraseButton';
+document.body.appendChild(erase);
+
+erase.addEventListener('click', makeColorWhite)
+
+function makeColorWhite(){
+    color = 'white';
 }

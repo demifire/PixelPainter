@@ -36,6 +36,12 @@
     height: 20px;
 }
 
-.clear {
-    /* position: absolute; */
+#clearButton {
+    position: absolute;
+    margin-top: -100px;
+}
+
+#eraseButton {
+    position: absolute;
+    margin-top: -75px;
 }
