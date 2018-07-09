@@ -91,5 +91,11 @@ document.body.appendChild(erase);
 erase.addEventListener('click', makeColorWhite)
 
 function makeColorWhite(){
+    for (var i=0; i<colorSquare.length; i++) {
+        if (colorSquare[i].style.border === "1px solid yellow") {
+            colorSquare[i].style.border = "";
+        }
+    }
     color = 'white';
+    colorSquare[71].style.border = "1px solid yellow"
 }
