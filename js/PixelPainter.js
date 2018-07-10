@@ -1,3 +1,108 @@
+/*
+
+......``````````````````````````````````````````````-:/++++++///////+shh/.```````````````````````````````````````````````````
+.``````````````````````````````````````````````./shmNNNNNNNNNNNmNNmmmh+-.````````````````````````````````````````````````````
+`.`````````````````````````````````````````.:odNMMMMMMMMMNNNNNNNNmNmmds+::/:--..`````````````````````````````````````````````
+`````````````````````````````````````````-+dNMMMMMMMMMMNNNNNNNNNNNNmmNNNNNmmho:-..```````````````````````````````````````````
+``````````````````````````````````````./yNMMMMMMMMMMMMMMMNNNNNNNNNmmmmmNNNNNNdho:..``````````````````````````````````````````
+````````````````````````````````````./hNNMMMMMMMMMMMMMMMNNNNNNNNNNNmmmmmNNNNNNmho:--..```````````````````````````````````````
+```````````````````````````````````-ydNNMMMMMMMMMMMMMMMMMNNNNmmmmNNmmmmmmmNNNNNmhs:-..```````````````````````````````````````
+`````````````````````````````````-+dmNMMMMMMMMMMMNNNNNNNNNNNNNmmddmmmmmmmNmmmmmmmmhs/-.``````````````````````````````````````
+```````````````````````````````-odNMMMMMNMMMMMNNNNNNmNmmmmmmmmmmmmmdmmdmdmmmdmmddmmmhyo:.````````````````````````````````````
+`````````````````````````````.+dNNMMMNNNNNNMNNNNmmmmdmddddddmdddhhdmmmmdddmmmdmddddddhho:.```````````````````````````````````
+```````````````````````````./hmNNMMNNNNNmNNNmmmmmdddddddhhddmmdhhhhhdddddddmmmdmddddddddh+..`````````````````````````````````
+``````````````````````````-ymNNNNMNNNNmNhmmmdddddddddddddyhdddddhhyyhdhhddddmmmmmmddddddmds/.````````````````````````````````
+`````````````````````````/dNNNmNNNNNmmmmymmmdhhdddhhdddddhyhdhhhhhysyhhhdddhmmmmNNmmmmdddmds:.```````````````````````````````
+````````````````````````/mNNNNNNNmNNmmddhmmdddhdhdyhyymddhoshhhhhhhysoshhhhhhdmmmNmmNmmmddmms-```````````````````````````````
+```````````````````````:mMNNNmNNNmmmmdddhdmmmdhdhysy+oddmds+sohhyhdhs+/+yysooyhhhmNmmNNmmmmmms.``````````````````````````````
+``````````````````````-dMNNNNNNmmNmmmmhhhddmmmhhhs+s+/hyddyoo/+yyyhhy/--:+o/:/+ssshmmdmmmmNmmd+.`````````````````````````````
+`````````````````````.hMMNNNNNNdmNdmNNddhddmmmdhhs/++:oshyyoo:-/ossss+-.`.::---:/++sdddmmddmNmh:`````````````````````````````
+````````````````````.:dNMNNNNNmdmNmmNNddhdddmNmdho::+--sso+///..-:++/::-.`..--:--:::ohddmmdhdmmy-````````````````````````````
+````````````````````.:sMMNNNmNmmNNNNNNdddddmmNmddo/-:-.os//:-:....-:/:-:////+++////:-/sdNmmddhmdo.```````````````````````````
+`````````````````````-yMNNNNmNNNNNNNNNdhdddNNNdhdy+--:-:y+::-.-...-:/osyhhhhys+/::::---+mNNmmddds-.``````````````````````````
+.`....```````````````./NNNNmmNNNMMMNNNmhhhmNNNdhhyo/:/::oo::--:::://+syyhhyo+//::::--..-+mNNmdhhs-.``````````````````````````
+......```````````````.-mmmNmmNNNMMMNNmmhydNNNNNdddhhyssoos+/:::://+ossyys+/-..----:::-...+mNNmdhh/.``````````````````````````
+......````````````````-hmmNmmmNMNNNNNdddhdmmNNNmmmmddhhyyysoo++++ossyyyso/:---:://///-..`.omNNmdhh/.`````````````````````````
+...`..``....`````````..smmNmNmNNNNNmmhdddddddmdhysyyhhhhhhhyyysssssyyyyyysssyyyhyyo/:.````.omNmmddh/.````````````````````````
+.`....```..`.`````````.oNNNNNNNNNNmhhyyhhhhhhyo/:::/+osyhhhhyys++++osyydddNmdyo/:-.```````.-ymNmmdmy-````````````````````````
+...```````````````````.sNNNNNNNNNNmysssyyhhyysso+/:/+osyyyyyso:-..-:://++++++//:-.````````..:hNNmmdm+.```````````````````````
+...`.`````````````````.+NNMMMNNNNNdso+osyhhhddddhddmmdhdhsooo/-````..`...-----.```   `````..-/dNmmhyh:```````````````````````
+...```.```````````````./NNMMMMNNNNho//+osyhhhhhhyyyys+/:--::/:.` ```````````         `````..--ymmmm+s+.``````````````````````
+...```.........```````.:mNNMMMMNNmho/::-----://+++o++/--...---.`   ``````````````````````...--+mmmmy:+:``````````````````````
+.....`````...`````````./dNNMMMMMNNho/:--...````......`````..-..`    ``../+//::-............--:/hmmhh:-:.`````````````````````
+....`...``....`..`````./yNNMMMMMNmho/:---..``````````````.:::-..`   `..`./yyyso+//:::------:::/ymm+//...`````````````````````
+.......```...``..```.`.-yNNMMMMMMNho+//::-...`````````.-/so:::-..`````.```-hddhhysso++/////////ohh/.....`````````````````````
+............`...........+mNNMMMMMNhso++//:--.........-/oyo-..-::::----::::/osyhddhhyyssooo+++///s+-.`````````````````````````
+............`........`..:yMMMMMMMNdysso+//::----::::/+syhs+++oyyyysooshhhho::/osyhdhhyyssoo++///+-..`````````````````````````
+..................``.`..-yNNNNMMMNdyyyysoo++////+++osyhyyhdddmmmmdddddhhho:--:/+osyyyyysso++////:.```````````````````````````
+...............`........-/yydNMMMNdhhhyyyyssssssssyyhhsooshdmmmmdddhhyo+:-...:/++++oooooo++/////-.```````````````````````````
+..............``.........::::dNMMNdhhhhhhhhhhyyyyyyyyo+++osyyyhhhyyso+/:::///oydhs+/////++/////+-````````````````````````````
+............................-o+NMMdhhhhdddddhhhhhhyys+oooooosshhyyysosssssyyydNmhs+/:::://////+/.````````````````````````````
+..............................-sNMNhhhhhddddhhhhyyyso+syhhhhddddddhhhyo+o:://s+:://:::::::///++:.````````````````````````````
+...............................-hNMdhhhhhhhhhhhyysssoosdNNNmdyhsos+///..--.---...--:::::://++o+..````````````````````````...`
+................................:yMNhhhhhhhhhhhyso+++++ssyddhyysos+::/--.``.--....---:////++oso..``````.````.````````.````...
+................................-+NMNhddhhyyyyyyso+++///:/++o++/:--...``..-::-......--://++osho...```````.`.......`..........
+.................................+NMMdydddhhyyyyysso++/::::/ooo++/:::/++oo+/::-.....--//++ossd+.......`````..................
+.................................:yNNy:yddddhyyyyyyso+//::::+osyyyyyyyyyss+/:-..`...-:/+oossyo-..............................
+................................../ddy:syhddddhhhhhhyso+/:::/+oyyyyyyysoo+:-..````..:/+osyys-................................
+..................................-os+oosddmmmmddddhhyso+/::-:/+oooo+/::-..``````..-/ossyyyNs................................
+...................................:/::/+MNmmmmmmmdddhhyso+/:-..----...````````..-:/syyhyssMNs...............................
+......................................./yMMNdmmmmmmmddddhyso+/-................-:/oyyhhhyooNMNs-.............................
+......................................+mMMMMNmmNNNmmmmmmmddhyso/:------::://///+oyhhhhhys++mMMNds:...........................
+...................................-/hMMMMMMMNNNNNNNNmmmmmmmmdhhysoooooossyyyyyhhddhhhys++oNMMMNNmhyys+:-....................
+...............................-/ohmMMMMMMMMMMMNNNNNNNNNmmmmmmmmmdddhhhhhdddddddddddhys+++sNMMMMNNNNNMMNmhs/-................
+............................-:/dMMMMMMMMMMMMMMMMMNNNNNNNNNNNmmmmmmmmmmmmmmmddddddddhyo+++ohMMMMMMMMNNNMMNNdNmdhyhhhyo/.......
+.....................-::-:ohdNNMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNmmmmmmmmmddddddddhhso+++oydMMMMMMMMMMMNMMNNmNNNNNNNMNNdyso/:-
+................:::/ymmmmNMMmMMMMMMMMMMMMMMMMMMMMMNmmmmmNNNNNNNNNmmmmmmmmmmddddhhysoo+oosymMMMMMMMMMMMMNMMNdNNNNNNNMNNNNNNNNd
+.............-/hmNNNNNMMMMMMNmMMMMMMMMMMMMMMMMMMMMMNmmdddmmmmmmmmmmmmmmmmmdddhhyyssoosssyhmMMMMMMMMMMMMNMMNNmMNNNNNNNNNMNNNNN
+.........-:+shNNNNMMNMMMMMMMMmNMMMMMMMMMMMMMMMMMMMMMNmmdddddddddddmmddddddhhhyyyyyssssyyhdNMMMMMMMMMMMMNNMNMmNNNNNNNNNNNMNNNN
+....:+osydmNNNNNNNNMMMMMMMMMMMmMMMMMMMMMMMMMMMMMMMMMMMNmmddddddddddddddddhhhhhhyyyyyyyyhhmNMMMMMMMMMMMMNNMNMMmMNNNNNNNNNMMNNN
+.-/ymNNNNNNNNNNNNMNNMMMNMMMMMMMmMMMMMMMMMMMMMMMMMMMMMMMNNmmddddddddddddhhhhhhhhhyyyyyyyyydMNMMMMMMMMMMMMNNMNMmNNNNNNNNNNNMMMN
++hmNNNNNNNNNNNNNNNNNNNMMNNMMMMMMNMMMMMMMMMMMMMMMMMMMMMMMMNNmmddddhhhhhhhhhhhyyyyyyyyyssshNMMMMMMMMMMMMMMmNMNMNmNNNNNNNNNNNMMM
+NNNNNNNNMMMNNNNNNNNMMNNNMNMMMMMMNNMMMMMMMMMMMMMMMMMMMMMMMMMNmmdddhhhhhyyyyyyyyyyyssoooohNMMMMMMMMMMMMMMNhNMMMMmNNNNNNNNNNNNMM
+NNNNNNNNNNMMMNNNNNNNMMNNNMMNMMMMMNNMMMMMMMMMMMMMMMMMMMMMMMMMMMNmdhhyyyyyyyysssooo++++odMMMMMMMMMMMMMMMMNymNMMMNmNNNNNNNNNNNNN
+NNNNNNNNNNNMMMNMMNNNNMMMNNNNNMMMMMNNMMMNMMMMMMMMMMMMMMMMMMMMMMMMMNmhyssssoooo+++++++omMMMMMMMMMMMMMMMMMNsdNMNMMdNNNNNNNNNNNNN
+NNNNNNNNNNNNNMMNMMNNNNMMNNNNNNMNMMMmMMMNMMMMMMMMMMMMMMMMMMMMMNNMMMMMmhsssooo++++++++dMMMMMMMMMMMMMMMMMMMsdNMNMMmNNNNNNNNNNNNN
+MNNNNNNNNNNNNNMMNNMMNMMNMNNNNNNNMMMMmMMNNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMdsoo+++++///ohMMMMMMMMMMMMMMMMMMMMyhNMNMMNdNNNNNNNNNNNN
+MMMMMNNNNNNNNNNMMNNNMMMMNNNNNNNNNMMMMNMMNNMMNNNMMMMMMMMMMMMMMMMMMMMMMMMNyo+++///smMMMMMMMMMMMMMMMMMMMMMMhhNNNMMNhNNNNNNNNNNNN
+MMMMMMMMNNNNNNNNMMNNNMMMNNNNNNNNNNMMMNNMMNMNNMMMMNmMMMMMMMMMMMMMMMMMMMMMMdo////dMMMMMMMMMMMMMMMMMMMMMMMMhhNNMNMNdNNNNNNNNNNNN
+MMMNNNNNMMMNNNNNNMMMNMNMNNNMMNNNNNNMMMNmMNMMMMMMMMNmNMMMMMMMMMMMMMMMMMMMMMMy:+mMMMMMMMMMMMMMMMMMMMMMMMMMmymNMNMMmmNNNNNNNNNNN
+MMMMMMMNNNNMNNNNNNMMNNNMNNNMMNNNNNNNNMMNmMMMMNmmNMMmmNMMNMMMMMMMMMMMMMMMMMMMmMMMMMMMMMMMMMMMMMMMNNNNNNNNhydNMNMMNhNNNNNNNNNNN
+MMMMMMMMMMNNNNNNNNNMMMNMMMNNMMMNNNNNNNMMNNMMMddyhmMMNmmNmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMddddddhhhshmNMMMMhNNNNNNNNNNN
+MMMMMMMMMMMMMMNNNNMMMMMMMMMMNNMMNNNNNNNMMmNMMMdhyhmMMNmmmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdhdddhhhsysmNMMMMdmNNNNNNNNNN
+MMMMMMMMMMNNNMMMMNNMMMMMMMMMMMNMMMNNNNNNMMmNMMNhhyhdNMMmdNMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMMMMMMNdddddyydyysdmNNMMNhNNNNNNNNNN
+MMMMMMMMMNMMMNNMMMMMMMMMMMMMMMMMMMMMNNNNMMNmNMMNhhyhmNMNmdNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNdddhhyhhyydddNMMNhNNNNNNNNNN
+MMMMMMMMMMMMMNNNNMMMMMMMMMMMMMMMMMMMMNNNNMMmNMMMdyhyddmMNmmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMNNNdhdhdhhhhdhdyNMMMNhNNNNNNNNN
+MMMMMMMMMMNNNMMMMMMNMMMMMMMMMMMMMMMMMMNNNNMmNNMMNhhyyhdmNMNdMMMMMMMMMMNMMMMMMMMMMMMMMMMMMMMMNMNNNdddddhhdddyyhmMMMNhNNNNNNNNM
+MMMMMMMMMMMNNNNNNNMMMMMMMMMMMMMMMMMMMMMNNNMNmNMMMdyhyhddmNMmNMMMMMMMMMMMMMMMMNNNMMMMMMMMMMMMmMMNNmddddhhdddoshdMMMMmdNNNNNMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNMMmNMMMNshsyhddmNMNMMMMMNMMMMMMMMMMNdymMMMMMMMMMMMNNNNNNddhddhdhyyohhNMMMNhNNNMMMMM
+MMMMMMMMMMMMMMNNNNNNMMMMMMMMMMMMMMMMMMMMMNMMmNNMMMyyyshdddmNMMMMNMMMMMMMMMMMMMNNNMMMMMMNMMMMNmNNNNhdhddddhyyssdNMMMMdNMNMMMMM
+MMMMMMMMMMMMMMMNNNNNNMMMMMMMMMMMMMMMMMMMMNMMmNNMMMhsysyhddmmmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmNNNNddddmhhdhhssdmMMMMNdMMMMMMM
+MMMMMMMMMMMMMMMMNNNNNNMMMMMMMMMMMMMMMMMMMMMMmNNMMMdohsyhddmmmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmNNNNNdddddhhhhyohdNMMMMdNMMMMMM
+MMMMMMMMMMMMMMMNNNNNNNMMMMMMMMMMMMMMMMMMMMMMmNNMMMNohsyhdddmmmmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNddddddhhhyoydmMMMMdNMMMMMM
+MMMMMMMMMMMMMMMMMNNNNMNMMMMMMMMMMMMMMMMMMMMMdNNNMMNshsshhdddmmmmMMMNNMMMMMMMMMMMMMMMMMMMMMMMMMNMNNNdddddhhdyhssdmMMMMmmMMMMMM
+MMMMMMMMMMMMMMMMMMNNNNMMMMMMMMMMMMMMMMMMMMMMdNNMMMNsysshhdddmmmmMMMNmMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNmdmdhhhhhsoddMMMMNdMMMMMM
+MMMMMMMMMMMMMMMMNNNNNNNNMMMMMMMMMMMMMMMMMMMMdMMMMMMyysshhddmdmmmNMMMdMMMMMMMMMMMMMMMMMMMMMMMMMNNMNNNddmdddhhhyohhNMMMMdMMMMMM
+MMMMMMMMMMMMMMMMMMMMMNNMMMMMMMMMMMMMMMMMMMMMdMMMMMMyyysydddmdmmmmMMMmNMMMMMMMMMMMMMMMMMMMMMMMMMNMMNNdmdmddhdhhsyhmMMMMmNMMMMM
+MMMMMMMMMMMMMMMMMMNMMMNMMMMMMMMMMMMMMMMMMMMMdMMMMMMhyysyhdddddmmmMMMMmMMMMMMMMMMMMMMMMMMMMMMMMMNNMNNmmmmmdhdhdsshdMMMMNmMMMMM
+MMMMMMMMMMMMMMMMMMMMMMNNNMMMMMMMMMMMMMMMMMMMmMMMMMMhyhsyhddddmmmmMMMMNMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMNddmmdhhdhyshyNMMMMmMMMMM
+MMMMMMMMMMMMMMMMMMMNNNNMNMMMMMMMMMMMMMMMMMMMmMMMMMMhyhyyhddddmmmmNMMMNMMMMMMMMMMMMMMMMMMMMMMMMMMmMMMMdddmddhddhshhmMMMMmMMMMM
+MMMMMMMMMMMMMMMMMMMNNNMMMMMMMMMMMMMMMMMMMMMMmNMMMMMhshyyhddmdmmmmmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmNMMMdddmmdddddyshdMMMMmNMMMM
+MMMMMMMMMMMMMMMMMMNNNNNNNNMMMMMMMMMMMMMMMMMMNNMMMMMdsdsydhddddddmmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmNMMMmddddddmddyshhMMMMMmMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmMMMMMdydsydhddmdmdmmMMMMNMMMMMMMMMMMMMMMMMMMMMMMMMmNMMNNdddmmddmdhsdyNMMMMmMMMM
+MMMMMMMMMMMMMMMMMMMMNNNNNNMMMMMMMMMMMMMMMMMMMmMMMMMmyhyyhdddddmmmmMMMMNMMMMMMMMMMMMMMMMMMMMMMMMMNNMMMMmmmNNmdddhshydMMMMNNMMM
+MMMMMMMMMMMMMMMMMMMNNNNNNNMMMMMMMMMMMMMMMMMMNNMMMMMmyhyyhdddmdmmmmNMMMNMMMMMMMMMMMMMMMMMMMMMMMMMNNMMMMNNNmNmddmdyyhdMMMMNNMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMMMmyhyyhddddmmmmmmMMMMNMMMMMMMMMMMMMMMMMMMMMMMMNNMMMMNmmmmmmmmdyyhhMMMMMNMMM
+MMMMMMMMMMMMMMMMMMMMNNNNNMMMMMMMMMMMMMMMMMMMNNMMMMMmyhyyhdmmddNmmmmMMMMNMMMMMMMMMMMNNMMMMMMMMMMMNNMMMMNmmmmmmmddyyddMMMMMNMMM
+MMMMMMMMMMMMMMMMMMMMMNNMMMMMMMMMMMMMMMMMMMMMMNMMMMMNhhhhdmmmdmNmmmmMMMMNMMMMMMMMMMMddNMMMMMMMMMMNNMMMMmmmmNmmmddhhddMMMMMNMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMMMNddhhdmmmmmNNNmNMMMMNMMMMMMMMMMMMNMMMMMMMMMMMNNMMMMmmNmNNmmmmhdddMMMMMNMNy
+MMMMMMMMMMMMMMMMMMMNNNNNNNNNMMMMMMMMMMMMMMMMMNMMMMMMddddmmNNmNNNNNNMMMMNMMMMMMMMMMMMMMMMMMMMMMMMNNMMMMNNNNNNNNNmdmmmMMMMMMNo-
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMMMMmmmmmmNNNNNNNNNMNNNNNNMMMMMMMMMMMMMMMMMMMMMMNMMMMNNNNNNNNNNmmNmNMMMMMm+:-
+MMMMMMMMMMMMMMMMNNNNNNNNNNMMMMMMMMMMMMMMMMMMMNNNmmmmdmmmNNNNNNMNMNhyyyhymmdNNMMdNMMMMMMMMMMMMMMMNMMMMNNNNNNNNNNNNNNMMMMMd/:--
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMds//:-----....--:/++ooddsyhdNNMNddddmNh+ooossssssyyyhhhhdmNNNNNNNNNNNNNNNMMMMNy/::--
+
+*/
+
 var pixelDiv = document.createElement('div');
 pixelDiv.id = 'pixelDiv';
 document.body.appendChild(pixelDiv);
@@ -164,3 +269,50 @@ function changeGridDisplay(){
         alert('Invalid entry')
     }
 }
+
+
+var canvas = document.createElement("canvas");
+var ctx = canvas.getContext("2d");
+canvas.width  = 20;
+canvas.height = 20;
+document.body.appendChild(canvas);
+
+var redArr = [];
+var greenArr = [];
+var blueArr = [];
+var alphaArr = [];
+
+var logoImg = new Image();
+logoImg.onload = function () {
+    ctx.drawImage(logoImg, 0, 0);
+    var pixels = ctx.getImageData(0,0,canvas.width,canvas.height);
+// console.log(pixels);
+    var pixelArr = pixels.data;
+console.log(pixels.data);
+
+    for(var i=0;i<pixelArr.length;i+=4){
+        redArr.push(pixelArr[i+0]);
+        greenArr.push(pixelArr[i+1]);
+        blueArr.push(pixelArr[i+2]);
+        alphaArr.push(pixelArr[i+3]);
+
+
+    }
+    
+    var doSomethingButton = document.createElement('button');
+    doSomethingButton.innerHTML = "Do Something";
+    doSomethingButton.id = 'doSomethingButton';
+    colorDiv.appendChild(doSomethingButton);
+
+    doSomethingButton.addEventListener('click', doSomething)
+
+    function doSomething(){
+    var allSquares = document.querySelectorAll('.cells');
+    for(var i=0;i<allSquares.length;i++){
+            allSquares[i].style.backgroundColor='rgb(' + redArr[i] + ',' + greenArr[i] + ',' + blueArr[i] + ',' + alphaArr[i] + ')';
+    }
+}
+}
+logoImg.src = "images/ok.png";
+
+
