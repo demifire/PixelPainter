@@ -67,7 +67,12 @@
     margin-top: 135px;
 }
 
-#doSomethingButton{
+#downloadImageButton {
     position: absolute;
     margin-top: 160px;
+}
+
+#downloadCanvas {
+    position: absolute;
+    margin-top: 300px;
 }
