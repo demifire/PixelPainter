@@ -136,6 +136,7 @@ function clickableGrid(number){
             }else{
                 this.style.backgroundColor = color;
             }
+
         }
         );
         }
@@ -466,5 +467,4 @@ downloadButton.href = "#";
 downloadButton.addEventListener('click', dlCanvas, false);
 colorDiv.appendChild(downloadButton);
 downloadButton.appendChild(downloadButtonChild);
-
 
